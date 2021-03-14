@@ -1,0 +1,16 @@
+$font-primary: 'Open Sans', sans-serif;
+$font-secondary: 'Archivo Narrow', sans-serif;
+
+$tablet-width: 600px;
+
+$colours: (
+    text: #463F3A,
+    accent: #C32C72,
+    white: #FFFFFF,
+    grey: #E5E5E5,
+    secondary: #F4F3EE,
+);
+
+@function getColour($colour) {
+    @return map-get($colours, $colour);
+}

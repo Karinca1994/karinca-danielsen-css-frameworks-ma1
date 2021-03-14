@@ -1,0 +1,16 @@
+.navbar {
+    background: getColour(nav-color) !important;
+    text-transform: uppercase;
+}
+
+.navbar-brand {
+    font-size: 2rem;
+}
+
+.nav-link {
+    color: getColour(text) !important;
+}
+
+.active {
+    color: getColour(accent) !important;
+}
